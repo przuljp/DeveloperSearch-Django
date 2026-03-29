@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="400" viewBox="0 0 1600 400" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#4facfe"/>
+    <stop offset="100%" stop-color="#00f2fe"/>
+  </linearGradient>
+</defs>
+
+<!-- Clean modern text -->
+<text x="120" y="250"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="200"
+      font-weight="600"
+      letter-spacing="4"
+      fill="url(#grad)">
+  Devix
+</text>
+
+<!-- Minimal underline accent -->
+<rect x="130" y="280" width="900" height="6" rx="3" fill="url(#grad)" />
+
+<!-- Subtle geometric accent on X -->
+<g transform="translate(980,120)">
+  <polygon points="0,80 40,0 80,80 40,160" fill="url(#grad)" opacity="0.2"/>
+</g>
+
+</svg>

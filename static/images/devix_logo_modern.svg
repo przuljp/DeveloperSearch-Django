@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2200" height="500" viewBox="0 0 2200 500" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <!-- Modern subtle gradient -->
+  <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#5B8CFF"/>
+    <stop offset="100%" stop-color="#7DD3FC"/>
+  </linearGradient>
+</defs>
+
+<!-- MAIN TEXT -->
+<text x="120" y="320"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="300"
+      font-weight="700"
+      letter-spacing="8"
+      fill="url(#grad)">
+  DEVIX
+</text>
+
+<!-- Clean modern accent line -->
+<rect x="130" y="360" width="1600" height="10" rx="5" fill="#5B8CFF" opacity="0.6"/>
+
+<!-- Small modern dot accent -->
+<circle cx="1750" cy="300" r="12" fill="#7DD3FC"/>
+
+</svg>
