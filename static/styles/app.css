@@ -845,3 +845,11 @@ img {
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
+
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 99999;
+    max-width: 300px;
+}
